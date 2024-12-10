@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="756dp"
+        android:layout_height="340dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.508">
+
+        <Button
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:text="DO"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp" />
+
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:text="RE"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:text="MI"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/d"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:text="FA"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/e"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:text="SOL"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/f"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:text="LA"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/g"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:text="SI"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="701dp"
+        android:layout_height="147dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/aa"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/black"
+            android:text="A#"
+            android:textColor="@color/white"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/bb"
+            android:layout_width="69dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/black"
+            android:text="B#"
+            android:textColor="@color/white"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/cc"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/black"
+            android:text="C#"
+            android:textColor="@color/white"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/dd"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/black"
+            android:text="D#"
+            android:textColor="@color/white"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/ee"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/black"
+            android:text="E#"
+            android:textColor="@color/white"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/ff"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/black"
+            android:text="F#"
+            android:textColor="@color/white"
+
+            app:cornerRadius="0dp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
